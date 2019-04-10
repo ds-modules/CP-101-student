@@ -169,36 +169,12 @@ def get_user_tweets_with_cache(user_account_name, keys_path):
         
     return load_tweets(ds_tweets_save_path)
 
-def get_hashtag_tweets_with_cache(hashtag, keys_path, count, filename):
-    """Get recent tweets with a hashtag, loading from a disk cache if available.
-    
-    The first time you call this function, it will download tweets by
-    a user.  Subsequent calls will not re-download the tweets; instead
-    they'll load the tweets from a save file in your local filesystem.
-    All this is done using the functions you defined in the previous cell.
-    This has benefits and drawbacks that often appear when you cache data:
-    
-    +: Using this function will prevent extraneous usage of the Twitter API.
-    +: You will get your data much faster after the first time it's called.
-    -: If you really want to re-download the tweets (say, to get newer ones,
-       or because you screwed up something in the previous cell and your
-       tweets aren't what you wanted), you'll have to find the save file
-       (which will look like <something>_recent_tweets.pkl) and delete it.
-    
-    Args:
-        user_account_name (str): The Twitter handle of a user, without the @.
-        keys_path (str): The path to a JSON keys file in your filesystem.
-    """
-    ds_tweets_save_path = '{}_recent_tweets.pkl'.format(filename)
-    if not Path(ds_tweets_save_path).is_file():
-        tweets = download_recent_tweets_by_hashtag(hashtag, load_keys(keys_path), count)
-        save_tweets(tweets, ds_tweets_save_path)
-    return load_tweets(ds_tweets_save_path)
-
 def load_vader():
     """Returns a DataFrame of the VADER sentiment lexicon. Row indices correspond
     to the word or symbol. The polarity column gives the sentiment associated with
-    a given word"""
+    a given word.
+    
+    Requires the VADER lexicon to be in the working directory in 'vader_lexicon.txt'."""
     import pandas as pd
     vader = open('vader_lexicon.txt').readlines()
     sent = pd.DataFrame(data=[x.replace('\n', '').split('\t') for x in vader],
