@@ -112,7 +112,8 @@ def download_recent_tweets_by_hashtag(hashtag, keys, location=None, count=15):
     return tweets
 
 def save_tweets(tweets, path):
-    """Saves a list of tweets to a file in the local filesystem.
+    """Saves a list of tweets to a file in the local filesystem. Extension
+    must be .json.
 
     Args:
         tweets (list): A list of tweet objects (of type Dictionary) to
@@ -126,7 +127,7 @@ def save_tweets(tweets, path):
         json.dump(tweets, f)
         
 def load_tweets(path):
-    """Loads tweets that have previously been saved.
+    """Loads tweets that have previously been saved as a json file.
     
     Calling load_tweets(path) after save_tweets(tweets, path)
     will produce the same list of tweets.
