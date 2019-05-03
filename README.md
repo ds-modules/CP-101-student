@@ -9,7 +9,7 @@
 
 The goal of this module is to provide a basic intro to census and economic data collection, processing, and analysis while demonstrating the use of real-time urban data and analytics. 
 
-**Developers: Monica Wilkinson, Vera Wang, Rebekah Tang, Kseniya Usovich 
+**Developers**: Monica Wilkinson, Vera Wang, Rebekah Tang, Kseniya Usovich  **Lead**: Timlan Wong 
 
 ### Data
 
