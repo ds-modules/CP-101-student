@@ -17,5 +17,5 @@ The goal of this module is to provide a basic intro to census and economic data 
 | :--------------------------: | ----------------------------------- | ---------------------------- | -------------------- |
 | Intro to Python   | broadway.csv  | -- | Learn basics of Python        |
 | Webscraping   | gentrification_oak.json  | -- | Using Twitter's API to download tweets        |        |
-| Geopandas   | various shapefiles  | -- | learn the basics of working with geospatial data in geopandas        |        |
+| Geopandas   | various shapefiles  | -- | Learn the basics of working with geospatial data in geopandas        |        |
 | Big Data   | tweets.csv  | -- | Working with and visualizing large datasets        |
