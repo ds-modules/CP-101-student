@@ -7,7 +7,7 @@
 
 **Instructor: Karen Chapple**
 
-The goal of this module is to provide a basic intro to census and economic data collection, processing, and analysis while demonstrating the use ofs of real-time urban data and analytics. 
+The goal of this module is to provide a basic intro to census and economic data collection, processing, and analysis while demonstrating the use of real-time urban data and analytics. 
 
 **Developers: Monica Wilkinson, Vera Wang, Rebekah Tang, Kseniya Usovich 
 
@@ -15,7 +15,7 @@ The goal of this module is to provide a basic intro to census and economic data 
 
 | Notebook                     | Data File                           | Data Source                  | Reason for use       |
 | :--------------------------: | ----------------------------------- | ---------------------------- | -------------------- |
-| asia-workbook-for-students   | asia-full-original-with-coords.csv  | UN Human Development Reports | Calculate GII        |
-| asia-workbook-with-answers   | asia-full-original-with-coords.csv  | UN Human Development Reports | Calculate GII        |        |
-| asia-workbook-with-answers   | asia-full-original-with-coords.csv  | UN Human Development Reports | Calculate GII        |        |
-| asia-workbook-with-answers   | asia-full-original-with-coords.csv  | UN Human Development Reports | Calculate GII        |
+| Intro to Python   | broadway.csv  | -- | Learn basics of Python        |
+| Webscraping   | gentrification_oak.json  | -- | Using Twitter's API to download tweets        |        |
+| Geopandas   | various shapefiles  | -- | learn the basics of working with geospatial data in geopandas        |        |
+| Big Data   | tweets.csv  | -- | Working with and visualizing large datasets        |
