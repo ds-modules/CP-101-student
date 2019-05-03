@@ -17,3 +17,5 @@ The goal of this module is to provide a basic intro to census and economic data 
 | :--------------------------: | ----------------------------------- | ---------------------------- | -------------------- |
 | asia-workbook-for-students   | asia-full-original-with-coords.csv  | UN Human Development Reports | Calculate GII        |
 | asia-workbook-with-answers   | asia-full-original-with-coords.csv  | UN Human Development Reports | Calculate GII        |
+           |
+| asia-workbook-with-answers   | asia-full-original-with-coords.csv  | UN Human Development Reports | Calculate GII        |
