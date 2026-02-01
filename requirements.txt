@@ -1,5 +1,5 @@
 numpy==1.16.*
 matplotlib==3.*
 seaborn==0.8.1
-geopandas==0.3.0
+geopandas==1.1.2
 pandas==0.23.4
